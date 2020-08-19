@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--head start-->
 <html lang="en">
   <head>
     <title>Hello!</title>
@@ -11,15 +12,16 @@
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    
+        <link href="https://fonts.googleapis.com/css?family=Bai Jamjuree" rel="stylesheet">
+
   </head>
+  <!--end head-->
   <body>
+    <!--star nav and heading-->
     <div class="w3-row">
       <div class="w3-dropdown-click w3-col s2 l1">
-        <button class="w3-button" onclick="myFunction()">
-          <h2>
-            ☰
-          </h2>
-          <i class="fa fa-caret-down"></i>
+        <button class="w3-button w3-xxlarge" onclick="myFunction()">☰
         </button>
         <div id="demo" class="w3-dropdown-content w3-bar-block w3-card-4">
           <a href="index.html" class="w3-bar-item w3-button">Home</a>
@@ -34,7 +36,9 @@
         </h1>
       </div>
     </div>
-
+<!--end heading and navagation bar-->
+    
+    <!--lockhead slideshow-->
     <div class="w3-col s12 l5 w3-display-container w3-round">
       <img
         src="https://cdn.glitch.com/cad74c89-c07f-4c82-b355-347208596680%2F800px-Lockheed_Martin_Supersonic_Design_Concept.jpg?v=1590546753691"
@@ -67,7 +71,9 @@
         alt="plane"
         style="width:100%"
       />
-
+<!--lockhead slideshow end-->
+      
+      <!--lockhead text-->
       <div class="w3-display-bottomleft">
         <h4 class="w3-padding    w3-opacity  w3-green">
           Lockheed Martin Supersonic Design Concept
@@ -101,7 +107,8 @@ On April 2, 2018, NASA awarded Lockheed Martin a $247.5 million contract to desi
         previous experimental and computational predictions.
       </p>
     </div>
-
+    <!--end lockhead text-->
+<!--boing text and image-->
     <div class="w3-col s12 l5 w3-display-container w3-round">
       <img
         src="https://cdn.glitch.com/cad74c89-c07f-4c82-b355-347208596680%2F800px-Boeing_advanced_blended_wing_body_concept_2011.jpg?v=1591305582423"
@@ -153,10 +160,11 @@ The Boeing X-48 is an American experimental unmanned aerial vehicle (UAV) built 
         later modified into the X-48C version, which was flight tested from August 
         2012 to April 2013. Boeing and NASA plan to develop a larger BWB demonstrator.      </p>
     </div>
+    <!--end boing text and image-->
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
+<!--end html-->

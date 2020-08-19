@@ -7,6 +7,21 @@ body {
 }
 
 h1 {
-  font-style: italic;
+font-family: 'Bai Jamjuree';
   color: #00000000000000000000;
 }
+
+h2 {font-family: 'Bai Jamjuree';
+
+}
+h3{font-family: 'Bai Jamjuree';
+}
+
+p{
+  font-family: 'Bai Jamjuree';
+}
+
+img{
+  width:100%;
+}
+
