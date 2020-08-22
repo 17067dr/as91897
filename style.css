@@ -3,25 +3,25 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: ;
+  background-image: linear-gradient(white, darkblue);
 }
 
 h1 {
-font-family: 'Bai Jamjuree';
-  color: #00000000000000000000;
+  font-family: "Bai Jamjuree";
+  color: ;
 }
 
-h2 {font-family: 'Bai Jamjuree';
-
+h2 {
+  font-family: "Bai Jamjuree";
 }
-h3{font-family: 'Bai Jamjuree';
-}
-
-p{
-  font-family: 'Bai Jamjuree';
+h3 {
+  font-family: "Bai Jamjuree";
 }
 
-img{
-  width:100%;
+p {
+  font-family: "Bai Jamjuree";
 }
 
+img {
+  width: 100%;
+}
